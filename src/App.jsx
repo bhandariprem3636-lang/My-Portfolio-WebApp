@@ -1,8 +1,9 @@
 import Hero from "./Hero";
 
 const App = () =>{
+  
   return(
-    <div className="bg-amber-100 min-h-screen">
+    <div className="bg-blue-600 min-h-screen">
       <Hero />
     </div>
   )
