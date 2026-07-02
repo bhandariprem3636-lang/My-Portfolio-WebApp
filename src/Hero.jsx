@@ -6,29 +6,29 @@ const Hero = () => {
   return (
     <div>
       {/* Header Section */}
-      <div className="bg-sky-400 h-22 shadow-xl flex justify-between p-4 items-center">
+      <div className="bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90% h-22 shadow-xl flex justify-between p-4 items-center">
         <h1 className="font-bold font-sans text-4xl ml-6 text-pink-50">
           Developer Prem !
         </h1>
-        <nav className="text-white text-xl">
+        <nav className="text-white">
           <ul className="flex cursor-pointer font-sarif font-bold">
             <li className="m-4 p-2 hover:bg-green-400 duration-300 ease-in rounded-xl">
-              <Link to="/">Home</Link>
+              <a href="#home">Home</a>
             </li>
             <li className="m-4 p-2 hover:bg-green-400 duration-300 ease-in rounded-xl">
-              <Link to="/">About Me</Link>
+              <a href="#about">About Me</a>
             </li>
             <li className="m-4 p-2 hover:bg-green-400 duration-300 ease-in rounded-xl">
-              <Link to="/">Skills</Link>
+              <a href="#skills">Skills</a>
             </li>
             <li className="m-4 p-2 hover:bg-green-400 duration-300 ease-in rounded-xl">
-              <Link to="/">Projects</Link>
+              <a href="#projects">Projects</a>
             </li>
             <li className="m-4 p-2 hover:bg-green-400 duration-300 ease-in rounded-xl">
-              <Link to="/">Experience</Link>
+              <a href="#experience">Experience</a>
             </li>
             <li className="m-4 p-2 hover:bg-green-400 duration-300 ease-in rounded-xl">
-              <Link to="/">Contact Us</Link>
+              <a href="#contact-us">Contact Us</a>
             </li>
           </ul>
         </nav>
@@ -36,20 +36,22 @@ const Hero = () => {
       {/* Landing Page */}
       {/* Main Div */}
       <div className="flex justify-between">
-        <div className=" mt-40 ml-40 mb-0 text-2xl h-80 text-4xl w-160">
-          <h1 className="text-6xl font-bold text-yellow-300 mb-4">
+        <div className=" mt-30 ml-30 h-80 text-4xl max-w-140">
+          <h1 className="text-5xl font-bold text-yellow-300 mb-4">
             PREM BHANDARI
           </h1>
-          <p className="text-amber-100">
-            Hi, My Name is{" "}
-            <span className="text-lime-400 font-bold">Prem Bhandari</span> and
-            I'm a<span className="text-pink-500"> MERN-STACK-DEVELOPER</span>.{" "}
+         <div className="text-3xl">
+           <p className="text-amber-100">
+            Hi, My Name is
+            <span className="text-lime-400 font-bold"> Prem Bhandari</span> and
+            I'm a<span className="text-pink-500"> MERN-STACK-DEVELOPER</span>.
             <br />I am very passioneted in Web Development.
           </p>
+         </div>
           <div>
             {/* Sirf ek line ka component */}
             <ReactTyped
-              className="text-orange-500"
+              className="text-orange-500 text-3xl"
               strings={[
                 "Build's Responsive Web Applications!",
                 "Let's Make It Your Crazy Ideas and Innovation.",
@@ -60,16 +62,16 @@ const Hero = () => {
           </div>
         </div>
         {/* Profile Picture */}
-        <div className="h-90 w-130 pt-18 mr-40">
+        <div className="h-80 w-130 mt-8 pl-20 mr-30">
           <img src={developerPic} alt="Developer Png image" />
         </div>
       </div>
       {/* buttons */}
-      <div className="ml-33 mt-0">
-        <a href="/public/Prem_Bhandari_Resume.pdf" download="Prem_Bhandari_Resume" className="p-4 w-35 m-6 font-bold bg-orange-500 text-amber-100 rounded-xl cursor-pointer hover:bg-orange-600">
+      <div className="mb-10 ml-23.5">
+        <a href="/public/Prem_Bhandari_Resume.pdf" download="Prem_Bhandari_Resume" className="p-4 w-35 m-6 font-bold bg-radial from-orange-400 from-40% to-orange-700 text-amber-100 rounded-xl cursor-pointer hover:bg-orange-600">
           Download CV
         </a>
-        <button className="p-4 w-35 m-6 font-bold bg-blue-800 text-amber-100 rounded-xl cursor-pointer hover:bg-blue-900">
+        <button className="p-4 w-35 font-bold bg-radial from-blue-400 from-40% to-sky-700 text-amber-100 rounded-xl cursor-pointer hover:bg-blue-900">
           Contact
         </button>
       </div>
