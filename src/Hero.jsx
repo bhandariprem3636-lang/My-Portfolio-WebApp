@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <div>
       {/* Header Section */}
-      <div className="bg-radial-[at_50%_75%] from-sky-200 via-blue-400 to-indigo-900 to-90% h-22 shadow-xl flex justify-between p-4 items-center">
+      <div className="h-22 shadow-lg flex justify-between p-4 items-center">
         <h1 className="font-bold font-sans text-4xl ml-6 text-pink-50">
           Developer Prem !
         </h1>
