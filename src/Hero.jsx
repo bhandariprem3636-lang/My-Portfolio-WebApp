@@ -68,10 +68,10 @@ const Hero = () => {
       </div>
       {/* buttons */}
       <div className="mb-10 ml-23.5">
-        <a href="/public/Prem_Bhandari_Resume.pdf" download="Prem_Bhandari_Resume" className="p-4 w-35 m-6 font-bold bg-radial from-orange-400 from-40% to-orange-700 text-amber-100 rounded-xl cursor-pointer hover:bg-orange-600">
+        <a href="/public/Prem_Bhandari_Resume.pdf" download="Prem_Bhandari_Resume" className="p-4 w-35 m-6 shadow-xl/30 shadow-amber-500 font-bold bg-radial from-orange-400 from-40% to-orange-700 text-amber-100 rounded-xl cursor-pointer hover:bg-orange-600">
           Download CV
         </a>
-        <button className="p-4 w-35 font-bold bg-radial from-blue-400 from-40% to-sky-700 text-amber-100 rounded-xl cursor-pointer hover:bg-blue-900">
+        <button className="p-4 w-35 font-bold shadow-xl/30 shadow-blue-500 bg-radial from-blue-400 from-40% to-sky-700 text-amber-100 rounded-xl cursor-pointer hover:bg-blue-900">
           Contact
         </button>
       </div>
