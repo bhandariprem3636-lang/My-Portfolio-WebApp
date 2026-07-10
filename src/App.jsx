@@ -1,6 +1,7 @@
 import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
+import Projects from "./Projects";
 
 const App = () =>{
   
@@ -9,6 +10,7 @@ const App = () =>{
       <Hero />
       <AboutMe />
       <Skills />
+      <Projects />
     </div>
   )
 }
