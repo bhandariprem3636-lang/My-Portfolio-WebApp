@@ -24,7 +24,8 @@ const AboutMe = () => {
       </div>
       {/* Profile Card */}
       <div className="flex">
-        <div className="h-115 w-75 ml-10 pt-6 mt-6 rounded-xl shadow-2xl/50 border-gray-500">
+        <div className="h-115 w-75 ml-10 pt-6 mt-6 rounded-xl shadow-2xl/50 border-gray-500 hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+            hover:scale-[1.03]">
           <div className="mx-auto rounded-full w-50 h-50 border-2 border-amber-500  bg-amber-400">
             <img
               src={developerPic}
@@ -50,7 +51,8 @@ const AboutMe = () => {
         </div>
         {/* Side Section */}
         <div>
-          <div className="rounded-xl shadow-2xl/50 p-3 m-6 w-215 h-40">
+          <div className="rounded-xl shadow-2xl/50 p-3 m-6 w-215 h-40 hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+            hover:scale-[1.03]">
             <div className="flex">
               <div>
                 <FaRegUserCircle className="text-2xl mt-0.5" />
@@ -73,8 +75,9 @@ const AboutMe = () => {
           </div>
 
           <div className="flex justify-between">
-            <div className="p-4 m-6 shadow-2xl/50 rounded-xl w-130">
-              <div className="flex">
+            <div className="p-4 m-6 shadow-2xl/50 rounded-xl w-130 hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+            hover:scale-[1.03]">
+              <div className="flex ">
                 <div className="flex items-center justify-center p-1.5 bg-cyan-400 rounded-full">
                   <FaGraduationCap className="" />
                 </div>
@@ -82,7 +85,7 @@ const AboutMe = () => {
               </div>
               <div className="mt-2">
                 <p className="font-bold text-shadow-amber-300 text-yellow-600">
-                  BCA{" "}
+                  BCA
                   <span className="text-orange-300 font-normal">
                     (Bachelor of Computer Application)
                   </span>
@@ -94,7 +97,7 @@ const AboutMe = () => {
                 </p>
               </div>
 
-              <div className="mt-2">
+              <div className="mt-2 ">
                 <p className="font-bold text-shadow-amber-300 text-yellow-600">
                   Higher Schooling
                   <span className="text-orange-300 font-normal">
@@ -109,7 +112,8 @@ const AboutMe = () => {
               </div>
             </div>
 
-            <div className="p-4 m-6 shadow-2xl/50 rounded-xl w-70">
+            <div className="p-4 m-6 shadow-2xl/50 rounded-xl w-70 hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+            hover:scale-[1.03]">
               <div className="flex">
                 <div className="flex items-center justify-center p-1.5 bg-red-400 rounded-full">
                   <FaRegHeart className="text-red-600" />

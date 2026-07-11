@@ -22,7 +22,8 @@ const Skills = () => {
 
       {/* Skills Section */}
       <div className="flex">
-        <div className="shadow-2xl/50 rounded-xl w-100 m-10 h-110">
+        <div className="shadow-2xl/50 rounded-xl w-100 m-10 h-110 hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+            hover:scale-[1.03]">
           <div className="flex m-4 gap-2">
             <div className="p-2 border rounded-full">
               <FaTv className="" />
@@ -87,9 +88,9 @@ const Skills = () => {
           </div>
         </div>
         {/* Tools and Other Technologies */}
-        <div className="flex m-10">
+        <div className="flex m-10 ">
           <div className="h-50 w-170 rounded-xl shadow-2xl/50">
-            <div className="flex m-4 gap-2">
+            <div className="flex m-4 gap-2 ">
               <div className="p-2 rounded-full bg-linear-to-r from-emerald-300 via-green-400 to-lime-300">
                 <IoSettingsOutline className="text-green-700" />
               </div>
@@ -99,7 +100,7 @@ const Skills = () => {
             </div>
             <div className="w-full border border-gray-400"></div>
 
-            <div className="flex">
+            <div className="flex ">
               <div className="flex flex-col justify-center items-center m-4 h-25 w-25 shadow-2xl/40 rounded-xl">
                 <img src={vsCode} alt="vsCode-Logo" className="h-15 w-20" />
                 <p className="text-center mt-1 font-bold text-white">VS CODE</p>
