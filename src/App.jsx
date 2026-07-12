@@ -2,6 +2,7 @@ import Hero from "./Hero";
 import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Projects from "./Projects";
+import Experience from "./Experience";
 
 const App = () =>{
   
@@ -11,6 +12,7 @@ const App = () =>{
       <AboutMe />
       <Skills />
       <Projects />
+      <Experience />
     </div>
   )
 }
