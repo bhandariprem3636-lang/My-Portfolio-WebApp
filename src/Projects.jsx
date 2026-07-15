@@ -22,7 +22,7 @@ const Projects = () => {
       {/* projects sections */}
       <div className=" flex justify-between m-10">
         {/* first project */}
-        <div className="h-75 w-85 rounded-xl shadow-2xl/50 hover:hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+        <div className="h-75 w-85 rounded-xl shadow-2xl/50 hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
             hover:scale-[1.03]">
         {/* image */}
             <div className='p-4'>
@@ -51,7 +51,7 @@ const Projects = () => {
         </div>
 
           {/* second project */}
-          <div className="h-75 w-85 rounded-xl shadow-2xl/50 hover:hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+          <div className="h-75 w-85 rounded-xl shadow-2xl/50 hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
             hover:scale-[1.03]">
         {/* image */}
             <div className='p-4'>

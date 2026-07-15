@@ -3,6 +3,7 @@ import AboutMe from "./AboutMe";
 import Skills from "./Skills";
 import Projects from "./Projects";
 import Experience from "./Experience";
+import ContactUs from "./Contact";
 
 const App = () =>{
   
@@ -13,6 +14,7 @@ const App = () =>{
       <Skills />
       <Projects />
       <Experience />
+      <ContactUs />
     </div>
   )
 }
