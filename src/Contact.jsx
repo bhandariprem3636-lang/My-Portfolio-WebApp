@@ -1,6 +1,8 @@
 import { FaFacebookF, FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { IoIosMail, IoIosMailUnread } from "react-icons/io";
+import { IoIosMail, IoIosMailUnread, IoIosSend } from "react-icons/io";
 import { IoCallOutline, IoLocationOutline } from "react-icons/io5";
+import { MdOutlineMessage } from "react-icons/md";
+
 
 const ContactUs = () => {
   return (
@@ -20,8 +22,9 @@ const ContactUs = () => {
         </div>
 
         {/* contact card */}
-        <div className="flex">
-          <div className="mt-8 h-110 w-120 rounded-xl shadow-2xl/50">
+        <div className="flex justify-between ">
+          <div className="mt-8 h-110 w-120 rounded-xl shadow-2xl/50  hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+            hover:scale-[1.03]">
             <div className="flex gap-3 m-4">
               <div className="p-2 bg-cyan-200 text-green-600 rounded-full w-8">
                 <IoIosMail />
@@ -72,6 +75,32 @@ const ContactUs = () => {
                 </div>
             </div>
           </div>
+
+            {/* Contact form */}
+        <div className='h-110 w-full m-8 rounded-2xl shadow-2xl/50  hover:shadow-[0_0_25px_rgba(6,182,212,0.4),0_0_10px_rgba(6,182,212,0.6)] transform transition-all duration-500 ease-[cubic-bezier(0.34,1.56,0.64,1)]
+            hover:scale-[1.03]'>
+            <div className="flex gap-3 font-bold m-4">
+              <div className="flex justify-center items-center p-2 bg-emerald-400 rounded-full"><MdOutlineMessage /></div>
+              <p className="text-xl text-gray-300">Send me a Messeage</p>
+            </div>
+
+
+          <div>
+            <form action="" className="flex flex-col m-4 gap-3">
+              <input type="text" name="name" id="name" placeholder="Enter your name..." required className="border border-gray-600 outline-none rounded-xl p-2"/>
+              <input type="email" name="email" id="email" placeholder="Enter your email.." required className="border border-gray-600 outline-none rounded-xl p-2"/>
+              <input type="text" name="subject" id="subject" placeholder="Subject" required className="border border-gray-600 outline-none rounded-xl p-2"/>
+              <textarea name="message" id="message" placeholder="Your Message" required className="border border-gray-600 outline-none rounded-xl h-35 p-2"></textarea>
+
+              <div className="flex justify-center items-center w-37 gap-1 rounded-xl text-whitew-35 h-9 bg-blue-500 hover:bg-blue-700">
+              <IoIosSend className="mt-1"/>
+              <button type="submit">Send Message</button>
+            </div>
+            </form>
+            
+          </div>
+        </div>
+
         </div>
       </div>
     </div>
